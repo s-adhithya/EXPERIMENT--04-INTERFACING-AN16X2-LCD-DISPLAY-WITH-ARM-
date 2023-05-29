@@ -173,6 +173,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
+```
 #include "lcd.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -249,7 +250,7 @@ int main(void)
      // Lcd_create(ports, pins, RS_GPIO_Port, RS_Pin, EN_GPIO_Port, EN_Pin, LCD_4_BIT_MODE);
      lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
      Lcd_cursor(&lcd, 0,1);
-     Lcd_string(&lcd, "gokul vijaya ramanuja p");
+     Lcd_string(&lcd, "Adhithya S");
 
 
    /* Infinite loop */
@@ -372,7 +373,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
+```
 
 
 ## Output screen shots of proteus  :
